@@ -2,7 +2,7 @@
 title: "Xinyi's Website"
 output: 
   html_document:
-    theme: united
+    theme: cerulean
 
 ---
 
