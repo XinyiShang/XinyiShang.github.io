@@ -1,0 +1,14 @@
+---
+title: "Xinyi's Website"
+output: 
+  html_document:
+    theme: united
+
+---
+
+# Welcome to My Personal Website
+
+Hello! My name's Xinyi Shang and I'm a first-year master's student in the Biostatistics department at Columbia University.
+
+[Click here to view my resume](resume.html)
+

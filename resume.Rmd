@@ -1,0 +1,74 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+# Xinyi Shang
+
+[LinkedIn](https://www.linkedin.com/in/xinyi-shang-27a47026b/)
+|
+[GitHub](https://github.com/XinyiShang)
+|
+[Email](xinyi_shang@outlook.com)
+|
+[Personal Website](https://github.com/XinyiShang/xinyishang.github.io)
+
+---
+
+## Education
+
+**Columbia University, Mailman School of Public Health, New York, NY**  
+*Master of Science in Biostatistics*  
+*Expected Graduation: May 2025*
+
+
+**Brandeis University, Waltham, MA**  
+*B.S. in Biology with Honors; Minor in Computer Science*  
+*Graduated: May 2023*  
+*summa cum laude; Dean’s List 2020 - 2023*
+
+
+---
+
+## Projects
+
+### Dynamical Synaptic Strengths and its Effect on the Discrimination of Sequential Stimuli
+
+#### Senior Thesis
+#### Advisor: Prof. Paul Miller | 06/2022 - 05/2023
+
+- Conducted a study on the effect of short-term synaptic plasticity on the discrimination of different stimuli sequences within a randomly connected attractor network.
+- Utilized a computational neuroscience model for analysis.
+- Employed clustering and confusion matrix techniques to investigate the network's ability to discriminate with various parameter sets.
+- Results demonstrated that the presence of facilitation increased network stability, while depression enhanced sensitivity to different signals. The network with both facilitation and depression exhibited the most complex behavior.
+- [Link to GitHub Repository](https://github.com/XinyiShang/DynamicalSynapticDynamics_SeqDiscrimination)
+
+### Improve the network performance based on “Pruning Filters for Efficient ConvNets”	
+#### Course Project
+#### Advisor: Prof. Hongfu Liu | 04/2023-05/2023
+
+- Implemented the network from the paper by Hao Li et al., focusing on pruning of filters with the smallest weight to improve computational efficiency and reduce model size
+- Explored the transition from VGG16 to VGG19 architectures, and introduced Dropout regulation to VGG16 model, resulting in nominal improvements
+- Employed quantization methods to decrease the size of the VGG16 model while maintaining accuracy levels, but still have difficulties in assessing the pruned network's accuracy
+- https://github.com/XinyiShang/COSI159_PruningImprovement
+
+---
+
+## Intership
+
+### R&D Intern
+#### Tiangen Biotech(Beijing) Co., Ltd | 02/2021-05/2021
+-	Purified genomes from blood and plants 
+-	Evaluated the effective of genome purification kits
+-	Helped test the degradation of DNA by different RNAse preservative
+
+---
+
+## Skills
+
+- **Programming Languages**: R, Python, Java
+- **Statistical Software**: RStudio, SPSS
+- **Languages**: English, Chinese
+
