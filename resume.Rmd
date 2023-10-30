@@ -43,7 +43,7 @@ output:
 - Utilized a computational neuroscience model for analysis.
 - Employed clustering and confusion matrix techniques to investigate the network's ability to discriminate with various parameter sets.
 - Results demonstrated that the presence of facilitation increased network stability, while depression enhanced sensitivity to different signals. The network with both facilitation and depression exhibited the most complex behavior.
-- [Link to GitHub Repository](https://github.com/XinyiShang/DynamicalSynapticDynamics_SeqDiscrimination)
+- [Link to this Project](https://github.com/XinyiShang/DynamicalSynapticDynamics_SeqDiscrimination)
 
 ### Improve the network performance based on “Pruning Filters for Efficient ConvNets”	
 #### Course Project
@@ -52,7 +52,7 @@ output:
 - Implemented the network from the paper by Hao Li et al., focusing on pruning of filters with the smallest weight to improve computational efficiency and reduce model size
 - Explored the transition from VGG16 to VGG19 architectures, and introduced Dropout regulation to VGG16 model, resulting in nominal improvements
 - Employed quantization methods to decrease the size of the VGG16 model while maintaining accuracy levels, but still have difficulties in assessing the pruned network's accuracy
-- https://github.com/XinyiShang/COSI159_PruningImprovement
+- [Link to this Project](https://github.com/XinyiShang/COSI159_PruningImprovement)
 
 ---
 
