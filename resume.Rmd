@@ -11,8 +11,6 @@ output:
 |
 [GitHub](https://github.com/XinyiShang)
 |
-[Email](xinyi_shang@outlook.com)
-|
 [Personal Website](https://github.com/XinyiShang/xinyishang.github.io)
 
 ---
