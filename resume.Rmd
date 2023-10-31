@@ -11,7 +11,7 @@ output:
 |
 [GitHub](https://github.com/XinyiShang)
 |
-[Personal Website](https://github.com/XinyiShang/xinyishang.github.io)
+[Personal Website](XinyiShang.github.io)
 
 ---
 
