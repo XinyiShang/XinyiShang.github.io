@@ -1,0 +1,76 @@
+---
+title: "p8105_hw4_xs2529_p2"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(p8105.datasets)
+library(plotly)
+library(dplyr)
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+```{r}
+
+
+instacart = instacart
+
+instacart_data = instacart |>
+  sample_n(1000)
+
+```
+
+```{r}
+#order day of week vs hour, colored by re-order
+plot_ly(data = instacart_data, x = ~order_dow, y = ~order_hour_of_day, type = "scatter", mode = "markers", color = ~reordered) |>
+  layout(title = "Order Day of Week vs. Hour of Day",
+         xaxis = list(title = "Order Day of Week"),
+         yaxis = list(title = "Order Hour of Day"))
+
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+# order number by department
+plot_ly(data = instacart_data, y = ~order_number, type = "box", color = ~department, colors = "viridis") |>
+  layout(title = "Order Number by Department",
+         yaxis = list(title = "Order Number of the User"))
+
+```
+
+### Chart C
+
+```{r}
+
+# re-order rate by department
+reorder_rate = instacart_data |>
+  group_by(department) |>
+  summarise(reorder_rate = mean(reordered))
+
+plot_ly(data = reorder_rate, x = ~department, y = ~reorder_rate, color = ~department, type = "bar",colors = "viridis") |>
+  layout(title = "Reorder Rate by Department",
+         xaxis = list(title = "Department"),
+         yaxis = list(title = "Reorder Rate"))
+
+
+```
+
+
+
+
+
+
+
+
