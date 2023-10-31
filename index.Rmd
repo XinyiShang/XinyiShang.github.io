@@ -12,3 +12,6 @@ Hello! My name's Xinyi Shang and I'm a first-year master's student in the Biosta
 
 [Click here to view my resume](resume.html)
 
+[Click here to view Instacart Dashboard (hw4 p2)](p8105_hw4_xs2529_p2.html)
+
+
