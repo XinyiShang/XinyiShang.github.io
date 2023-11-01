@@ -18,6 +18,7 @@ library(dplyr)
 
 Column {data-width=650}
 -----------------------------------------------------------------------
+### Re-order Behavior in the Week
 
 ```{r}
 # randomly select 2000 samples
@@ -42,7 +43,7 @@ plot_ly(data = instacart_data, x = ~order_dow, y = ~order_hour_of_day, type = "s
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart B
+### Customer Order Number by Department
 
 ```{r}
 # order number by department
@@ -52,7 +53,7 @@ plot_ly(data = instacart_data, y = ~order_number, type = "box", color = ~departm
 
 ```
 
-### Chart C
+### Re-order Rate by Department
 
 ```{r}
 
