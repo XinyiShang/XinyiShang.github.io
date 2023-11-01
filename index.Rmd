@@ -23,7 +23,9 @@ Hello! My name is Xinyi Shang, and I'm a first-year master student in the Biosta
 
 ## Instacart Dashboard
 
-Click the link to check my Instacart dashboard for Homework 4, Problem 2.
+Click the link to explore my Instacart dashboard for Homework 4, Problem 2. 
+
+2000 samples are randomly selected from the instacart dataset. The dashboard provides insights into their ordering patterns and preferences.
 
 [Click here to view Instacart Dashboard (hw4 p2)](p8105_hw4_xs2529_p2.html)
 
