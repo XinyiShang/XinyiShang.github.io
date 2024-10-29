@@ -1,5 +1,5 @@
 ---
-title: "Xinyi's Website"
+title: "Xinyi Shang's Website"
 output: 
   html_document:
     toc: true
@@ -7,26 +7,23 @@ output:
     theme: cerulean
 ---
 
-## Welcome to My Personal Website
+## Welcome !
 
-![ ](image/profile_photo.jpg){height=200}
-
----
-
-## About Me
-
-Hello! My name is Xinyi Shang, and I'm a first-year master student in the Biostatistics department at Columbia University.
-
-[Click here to view my resume](resume.html)
+![](image/profile_photo.jpg){height=200}  
 
 ---
 
-## Instacart Dashboard
+## About Me  
 
-Click the link to explore my Instacart dashboard for Homework 4, Problem 2. 
+Hi! I’m **Xinyi Shang**, a second-year master’s student in the **Biostatistics Department** at **Columbia University**, specializing in the **Theory and Methods Track**.  
 
-2000 samples are randomly selected from the instacart dataset. The dashboard provides insights into their ordering patterns and preferences.
+🔗 [View My Resume](resume.html)  
+🔗 [Connect with Me on LinkedIn](https://www.linkedin.com/in/xinyi-shang-27a47026b/)  
 
-[Click here to view Instacart Dashboard (hw4 p2)](p8105_hw4_xs2529_p2.html)
+---
 
+## Research Interests  
 
+I currently work in the [Wenpin Hou Lab](https://winnie09.github.io/Wenpin_Hou/), focusing on:  
+- Evaluating GPT models for statistical applications.  
+- Developing **statistical methods** for **spatial transcriptomics data**.  

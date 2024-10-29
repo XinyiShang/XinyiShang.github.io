@@ -1,16 +1,16 @@
-name: "Yay internet!"
+name: "Xinyi Shang's Personal Website"
 output_dir: "."
 navbar:
   title: "Home"
   right:
     - text: "Resume"
       href: resume.html
-    - text: "Instacart Dashboard"
-      href: p8105_hw4_xs2529_p2.html
     - icon: fa-envelope fa-lg
-      href: mailto:<xinyi_shang@outlook.com>
+      href: "mailto:xinyi_shang@outlook.com"
+    - icon: fa-linkedin fa-lg
+      href: "https://www.linkedin.com/in/xinyi-anna-shang/"
     - icon: fa-github fa-lg
-      href: http://github.com/XinyiShang/
+      href: "https://github.com/XinyiShang/"
 output: 
   html_document:
     theme: cerulean

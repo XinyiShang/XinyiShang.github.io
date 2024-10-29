@@ -11,33 +11,60 @@ output:
 |
 [GitHub](https://github.com/XinyiShang)
 |
-[Personal Website](xinyishang.github.io)
-|
-[Resume](file/CV_XinyiShang_revised_2.pdf)
+[Resume](file/Shang_Xinyi_Oct28.pdf)
 
 ---
 
 ## Education
 
-**Columbia University, Mailman School of Public Health, New York, NY**  
-*Master of Science in Biostatistics*  
-*Expected Graduation: May 2025*
+### Columbia University, Mailman School of Public Health
+
+#### New York, NY | 09/2023 - Exp 05/2025
+
+- Master of Science in **Biostatistics** 
+- Theory and Methods Track | GPA: 4.00/4.00
 
 
-**Brandeis University, Waltham, MA**  
-*B.S. in Biology with Honors; Minor in Computer Science*  
-*Graduated: May 2023*  
-*summa cum laude; Dean’s List 2020 - 2023*
+### Brandeis University
+
+#### Waltham, MA | 09/2019 - 06/2023
+
+-  B.S. in **Biology** with Honors; Minor in **Computer Science** 
+-  GPA 3.83/4.00 | *summa cum laude*; Dean’s List 2020 - 2023
 
 
 ---
 
-## Projects
+## Academic Experience
+
+###  Identifying Cell-type-specific Spatially Variable Genes
+
+#### Supervisor: Prof. Wenpin Hou, Prof. Zhicheng Ji | 06/2024-Present
+- This project integrates genomic and spatial data to identify spatially variable genes within specific cell types in spatial transcriptomes, aiding in the understanding of regional biological processes and functions.
+- Assisted in annotating cell types using 10x Visium HD datasets from various species and tissues, including mouse brain, human pancreas, human lung cancer, mouse embryo, and human colorectal cancer. Explored genetic and cell type databases such as Panglao DB and CellMarker 2.0 to gain insights into cell type-specific gene expression.
+- Evaluated algorithms and analyzed ontology terms to enhance the understanding of gene expression patterns and their spatial distribution, contributing to the analysis of gene function and spatial heterogeneity in organs and tissues.
+
+
+### GeneTuring tests GPT models in genomics 
+
+#### Supervisor: Prof. Wenpin Hou, Prof. Zhicheng Ji | 08/2024-Present
+-	This project focused on evaluating advanced GPT models in their ability in answering genomic questions.
+-	Conducted thorough assessments of evaluating advanced GPT models (GPT-3.5, GPT-4, GPT-4o, Gemini Advance) across 1,200 genomics-related questions, benchmarking their performance on tasks such as gene extraction, SNP location, and gene-disease association, protein coding, gene ontology, gene alias association, etc.
+- Analyzed model accuracy by focusing on the models' ability to recognize task limitations and handle unknown queries.
+
+
+### Thalamic Nuclei Derived Radiomics & Volumetric Trajectories in MS                             
+
+#### Supervisor Dr. Korhan Buyukturkoglu | 05/2024-06/2024
+- Analyzing radiomic and volumetric data to uncover the relationship between thalamic nuclei changes in Multiple Sclerosis (MS) patients and cognitive impacts measured by the Symbol Digit Modalities Test (SDMT).
+- Processed and analyzed data from 126 MS patients, focusing on 8 bilateral thalamic nuclei, the whole thalamus, and over 1,500 radiomic features. 
+- Identified 2 distinct MS subtypes based on volumetric and 2 subtypes using radiomic data.
+
 
 ### Dynamical Synaptic Strengths and its Effect on the Discrimination of Sequential Stimuli
 
 #### Senior Thesis
-#### Advisor: Prof. Paul Miller | 06/2022 - 05/2023
+#### Supervisor: Prof. Paul Miller | 06/2022 - 05/2023
 
 - Conducted a study on the effect of short-term synaptic plasticity on the discrimination of different stimuli sequences within a randomly connected attractor network.
 - Utilized a computational neuroscience model for analysis.
@@ -45,14 +72,62 @@ output:
 - Results demonstrated that the presence of facilitation increased network stability, while depression enhanced sensitivity to different signals. The network with both facilitation and depression exhibited the most complex behavior.
 - [Link to this Project](https://github.com/XinyiShang/DynamicalSynapticDynamics_SeqDiscrimination)
 
-### Improve the network performance based on “Pruning Filters for Efficient ConvNets”	
-#### Course Project
-#### Advisor: Prof. Hongfu Liu | 04/2023-05/2023
 
-- Implemented the network from the paper by Hao Li et al., focusing on pruning of filters with the smallest weight to improve computational efficiency and reduce model size
-- Explored the transition from VGG16 to VGG19 architectures, and introduced Dropout regulation to VGG16 model, resulting in nominal improvements
-- Employed quantization methods to decrease the size of the VGG16 model while maintaining accuracy levels, but still have difficulties in assessing the pruned network's accuracy
-- [Link to this Project](https://github.com/XinyiShang/COSI159_PruningImprovement)
+---
+
+## Manuscript & Poster Abstract  
+
+Zhuang, H., **Shang, X.**, Hou, W., & Ji, Z. (in progress). *Identifying Cell-Type-Specific Spatially Variable Genes with ctSVG2.* 
+
+Buyukturkoglu, K., Davis, L., Wen, S., **Shang, X.**, Zhang, W., Comandate-Lou, N., Blackwelder, J., Shende, V. K., Ozcelik, S., Boulanger, A., Riley, C., Stern, Y., & De Jager, P. (2024). *Thalamic Nuclei Derived Radiomics and Volumetric Trajectories in Multiple Sclerosis and Their Associations with Symbol Digit Modalities Test.* Presented at the 40th Congress of ECTRIMS, Copenhagen, Denmark.  
+
+---
+
+## Awards
+
+### **Grand Prize Winner**, Hacking Health Hackathon 2024
+#### Columbia University | 02/2024
+- **Project**: Developed a **Sepsis Early-Stage Prediction Model** using Random Forest, achieving ~98% accuracy by analyzing patient vital signs, biomarkers, and demographic data.  
+- **Deployment**: Built a Flask-based website for real-time model deployment.  
+- **Media Coverage**:
+  - [Hacking Health (Patient Safety Technology Challenge)](https://www.patientsafetytech.com/past-competitions/hackinghealth),
+  - [Columbia Spectator](https://www.columbiaspectator.com/arts-and-culture/2024/02/07/students-discuss-healthcare-technologies-at-hacking-health-hackathon/),
+  - [Physician-Patient Alliance for Health & Safety](https://ppahs.org/2024/03/hacking-health-and-how-you-can-improve-sepsis-care/),
+  - [Jewish Healthcare Foundation](https://jhf.org/news/three-patient-safety-technology-challenge-competitions-announce-winning-innovations-1-2),
+  - and *Biostatistics Department Weekly Updates*.  
+
+### **Silver Medal**, HMS - Harmful Brain Activity Classification
+
+#### Kaggle Competition | 02/2024–04/2024
+- Collaborated on a **deep learning model** for EEG pattern classification using EEG data and spectrograms.  
+- Managed **106,800 observations**, applying analytical methods to boost model accuracy.  
+- Designed an ensemble model (ResNet-1D, GRU, EfficientNet-B1) with **ROI-focused data augmentation**, improving detection of complex brain activities.
+
+### **Semi-finalist**, Women's Health Tech Challenge
+#### HITLAB| 08/2024–09/2024
+
+- Participated as part of Team [AI4Purpose Inc](https://ai4purpose.com/). Contributed to **Antisepsis for Infants and Moms (AIM)**, focused on creating digital health tools to combat maternal sepsis.  
+
+- Developed a health tracking device based on the Antisepsis framework to assess sepsis risk using patient biomedical markers. Enhanced the machine learning model to more accurately target maternal and neonatal sepsis.
+
+- Featured in [NYC ASA: Chapter News(https://www.nycasa.org/news.html).  
+
+---
+
+## Teaching Experience  
+
+**Teaching Assistant**, Applied Regression II, Columbia University  
+  *09/2024–Present*  
+
+**Teaching Assistant**, Statistical Computing with SAS, Columbia University  
+  *09/2024–Present*  
+
+**Facilitator**, Summer Health Professions Education Program (SHPEP), Columbia University  
+  *06/2024–07/2024*  
+  - Assisted in teaching **Organic Chemistry, Physics, and Narrative Medicine** while facilitating the **Physical Therapy track**.  
+  - Managed course logistics, including attendance tracking, grading assignments, and completing clerical tasks.  
+  - Led a small group of ~10 students and organized two social activities to foster engagement and community.  
+
 
 ---
 
@@ -66,9 +141,81 @@ output:
 
 ---
 
-## Skills
+## Skills  
 
-- **Programming Languages**: Matlab, Python, R, Java
-- **Statistical Software**: RStudio, SPSS
-- **Languages**: English, Chinese
+- **Programming Languages**: Python, R, MATLAB, Java, SAS, SQL  
+- **Machine Learning & Deep Learning**: Regression Analysis, Classification, Clustering, Neural Networks, Computer Vision  
+- **Biostatistics & Statistical Modeling**: Survival Analysis, Longitudinal Analysis, Clinical Trial Design, Linear Mixed Models  
+- **Data Analysis & Tools**: Data Mining, Exploratory Data Analysis (EDA), Simulation, Shiny Apps, API Integration  
+- **Software & Platforms**: Microsoft Office (Word, Excel, PowerPoint), Anaconda, SPSS, RStudio, MySQL  
 
+---
+
+## Related Projects
+
+### Dia-mostic
+
+#### Columbia Healthcare Ventures Fast-Pitch Competition | 09/2024-Present
+
+- Developed **Dia-mostic**, an AI-powered solution aimed at improving the diagnosis and management of **gestational diabetes** for healthier maternal and neonatal outcomes.  
+- Created a predictive model using machine learning algorithms to enhance early detection of gestational diabetes and improve patient care.  
+- Built an interactive mobile app ([prototype available here](https://app.uizard.io/p/1a43c69e)) to provide healthcare providers and patients with real-time insights, personalized recommendations, and tracking tools.  
+
+
+### Alpha Skin: AI-Enabled Solution for Posture Monitoring 
+
+#### Rutgers Health Hackathon 2024 | 10/2024
+
+- Participated in the Rutgers Hackathon as part of Team Alpha Skin, developing an AI-driven skin sensor solution designed for real-time monitoring of spinal motion and posture correction.  
+- Technical Approach:  
+  - Cloud-based model: Extracted key posture features from cleaned data and updated the system using a population-level databank.  
+  - Personalized Monitoring: Initialized individual models based on user-specific posture patterns, enabling real-time, tailored feedback.  
+  - Built an interactive mobile app ([prototype available here](https://app.uizard.io/p/ed93eb2c/preview)).
+
+
+### Breast Cancer Survival Prediction
+
+#### Course Project | 11/2023-12/2023
+
+- Conducted statistical analysis on a **prospective cohort study dataset** to identify key predictors of breast cancer risk.  
+- Developed a **Multiple Logistic Regression model** incorporating variables such as age, race, tumor characteristics, and hormone status, **achieving 85.6% accuracy** in predicting survival outcomes.  
+- Applied advanced statistical techniques for data cleaning, processing, and analysis, including regression analysis and hypothesis testing to uncover significant patterns in demographic and disease characteristics.  
+- [Link to this Project](https://github.com/XinyiShang/p8130_final_project/blob/main/final_report.pdf)
+
+
+### Analysis of NYPD Complaint Data
+
+#### Course Project | 10/2023-12/2023
+
+- Performed a comprehensive analysis of NYPD complaint data to uncover trends and patterns in criminal complaints across New York City.  
+- Cleaned, processed, and analyzed large datasets using advanced statistical techniques, including regression analysis, to extract insights from crime data.  
+- Developed interactive visualizations using a **Shiny app** and created a **GitHub website** with **R Markdown** to present findings.
+- [Link to this Project](https://xinyishang.github.io/p8105_final_project_NYPD.github.io/)
+
+
+### Improve the network performance based on “Pruning Filters for Efficient ConvNets”	
+#### Course Project | Supervisor: Prof. Hongfu Liu | 04/2023-05/2023
+
+- Implemented the network from the paper by Hao Li et al., focusing on pruning of filters with the smallest weight to improve computational efficiency and reduce model size
+- Explored the transition from VGG16 to VGG19 architectures, and introduced Dropout regulation to VGG16 model, resulting in nominal improvements
+- Employed quantization methods to decrease the size of the VGG16 model while maintaining accuracy levels, but still have difficulties in assessing the pruned network's accuracy
+- [Link to this Project](https://github.com/XinyiShang/COSI159_PruningImprovement)
+
+---
+
+## Certifications  
+
+- **SAS Certified Specialist**: Base Programming Using SAS 9.4  
+- **SAS Certified Professional**: Advanced Programming Using SAS 9.4  
+
+---
+
+## Extracurricular Activities  
+
+- **Volunteer**, Language Empowering Action Project  
+  *09/2022–05/2023*  
+  - Tutored adults in **English language skills**, helping them improve communication and literacy.  
+
+- **Volunteer**, Leland Home (C2E Program)  
+  *09/2019–12/2019*  
+  - Provided **companionship and support** to elderly residents, fostering social interaction and well-being.  
